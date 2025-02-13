@@ -30,3 +30,15 @@ In the Scripts folder is the coding performed
 We first scraped the data from IMDb user movie reviews for the first six movies in the Fast and Furious Franchise. We used Selenium and BeautifulSoup4 to scrape the data, the coding and exclipit way to do so can be found in the Scrips Folder under the file lable "Selenium_Dynamic_Scraping."
 
 Section 4: References!
+● All references should be listed at the end of the document ● Use IEEE Documentation style (link)
+https://stackoverflow.com/questions/69030056/how-to-save-the-result-of-scraping-in-a-csv
+(how to save scrape in csv)
+https://aamir07.medium.com/selenium-with-beautifulsoup-tutorial-python-ff9362e1571c
+https://medium.com/ymedialabs-innovation/web-scraping-using-beautiful-soup-and-selenium-for-dynamic-page-2f8ad15efe25
+(how use selenium w/ beautifulsoup lot of coding came from here)
+https://nariyoo.com/python-how-to-run-selenium-in-google-colab/
+https://medium.com/@MinatoNamikaze02/running-selenium-on-google-colab-a118d10ca5f8
+(^ 2 above is how to instal selenium + use in google colab)
+https://www.bardeen.ai/answers/how-to-web-scrape-rotten-tomatoes
+(helpful w/ web scraping at one point)
+
