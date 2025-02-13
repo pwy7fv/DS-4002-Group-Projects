@@ -50,6 +50,8 @@ Each row in the dataset represents a movie review from a user for the first movi
 #### Figure 1: Distribution of Movie Reviews by Date (June-July 2001)
 
 [Insert plot of reviews by date for June-July 2001]
+![image](https://github.com/user-attachments/assets/0359c083-ffa0-4205-8a11-b1e4ebee8010)
+
 
 ---
 
