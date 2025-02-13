@@ -103,6 +103,100 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 
 ---
 
+## Dataset  - 2 Fast 2 furious (June 2003)
+
+### Unit of Observation:
+Each row in the dataset represents a movie review from a user for _The Fast and the Furious_, written after **2011**. The unit of observation remains the same as in Dataset 1: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
+
+### Variables:
+- **Rating**: Numeric values representing the review rating, ranging from 1 to 10. Missing values were handled similarly as in the previous dataset by replacing "No rating" with the mean rating.
+- **Title**: The name of the review.
+- **Content**: The review text written by the user.
+- **Author Name**: The name of the reviewer.
+- **Date**: The date the review was posted.
+
+### Descriptive Statistics:
+
+#### Summary Statistics for Rating:
+| Metric | Value |
+|--------|-------|
+| Count  | 103.000000 |
+| Mean   | 6.071429 |
+| Min    | 1.000000 |
+| 25%    | 5.000000 |
+| Median | 6.071429 |
+| 75%    | 8.000000 |
+| Max    | 10.000000  |
+| Std Dev| 2.723613  |
+
+
+#### Summary Statistics for Date:
+- **Date Range**: [Insert the date range, e.g., from 2012 to 2023]
+- **Total Number of Reviews**: [Insert total number of reviews]
+
+#### Content:
+- **Average Review Length**: [Insert calculated average review length here, e.g., number of characters]
+
+#### Author Name:
+- **Unique Reviewers**: [Insert number of unique authors]
+
+#### Date:
+- The reviews span from [Insert starting year, e.g., 2012] to the present.
+
+---
+
+### Figures and Tables:
+#### Figure 2: Distribution of Movie Reviews by Date (Post-2011)
+
+[Insert plot of reviews by date for post-2013]
+---
+
+## Dataset  - 2 Fast 2 furious (Post 2013)
+
+### Unit of Observation:
+Each row in the dataset represents a movie review from a user for _The Fast and the Furious_, written after **2011**. The unit of observation remains the same as in Dataset 1: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
+
+### Variables:
+- **Rating**: Numeric values representing the review rating, ranging from 1 to 10. Missing values were handled similarly as in the previous dataset by replacing "No rating" with the mean rating.
+- **Title**: The name of the review.
+- **Content**: The review text written by the user.
+- **Author Name**: The name of the reviewer.
+- **Date**: The date the review was posted.
+
+### Descriptive Statistics:
+
+#### Summary Statistics for Rating:
+| Metric | Value |
+|--------|-------|
+| Count  | 208.000000 |
+| Mean   |  6.240000 |
+| Min    | 1.000000 |
+| 25%    | 5.000000 |
+| Median | 6.000000 |
+| 75%    | 8.000000 |
+| Max    | 10.000000  |
+| Std Dev| 2.259152 |
+
+#### Summary Statistics for Date:
+- **Date Range**: [Insert the date range, e.g., from 2012 to 2023]
+- **Total Number of Reviews**: [Insert total number of reviews]
+
+#### Content:
+- **Average Review Length**: [Insert calculated average review length here, e.g., number of characters]
+
+#### Author Name:
+- **Unique Reviewers**: [Insert number of unique authors]
+
+#### Date:
+- The reviews span from [Insert starting year, e.g., 2012] to the present.
+
+---
+
+### Figures and Tables:
+#### Figure 2: Distribution of Movie Reviews by Date (Post-2011)
+
+[Insert plot of reviews by date for post-2011]
+---
 ## Conclusion:
 This appendix provides an overview of two datasets, detailing the distribution of reviews, summary statistics, and key variables for both movie review periods. The data includes ratings, review content, and reviewer details, offering insights into public reception across different time periods. Further analysis of these reviews could reveal trends in user feedback and sentiment over time.
 
