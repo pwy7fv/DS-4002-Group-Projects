@@ -29,3 +29,4 @@ In the Scripts folder is the coding performed
 ## Instructions for reproducing your results. 
 We first scraped the data from IMDb user movie reviews for the first six movies in the Fast and Furious Franchise. We used Selenium and BeautifulSoup4 to scrape the data, the coding and exclipit way to do so can be found in the Scrips Folder under the file lable "Selenium_Dynamic_Scraping."
 
+Section 4: References!
