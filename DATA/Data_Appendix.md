@@ -5,7 +5,7 @@ The purpose of this data appendix is to provide a detailed description of the da
 
 ---
 
-## Section 1: Dataset 1 - Movie Reviews (June-July 2001)
+## Section 1: Dataset 1 - The Fast and Furious Reviews (June-July 2001)
 
 ### Unit of Observation:
 Each row in the dataset represents a movie review from a user for the first movie in the Fast and Furious franchise, _The Fast and Furious_, written between **June 22nd and July 13th, 2001**. The unit of observation is a movie review, where each row contains the following attributes:
@@ -53,7 +53,7 @@ Each row in the dataset represents a movie review from a user for the first movi
 
 ---
 
-## Section 2: Dataset 2 - Movie Reviews (Post-2011)
+## Section 2: Dataset 2 - The Fast and Furious Reviews (Post-2011)
 
 ### Unit of Observation:
 Each row in the dataset represents a movie review from a user for _The Fast and the Furious_, written after **2011**. The unit of observation remains the same as in Dataset 1: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
