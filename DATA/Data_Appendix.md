@@ -287,7 +287,7 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 
 #### Summary Statistics for Date:
 - **Date Range**: March 2009 to 2019-2025
-- **Total Number of Reviews**: [180 Total] [66 from March,30 2009 - April,9 2009] [114 from 2016-2025] 
+- **Total Number of Reviews**: [180 Total] [66 from March, 30 2009 - April, 9 2009] [114 from 2016-2025] 
 
 #### Content:
 - **Average Review Length**: [1114 Total] [1384 from June 16, 2006 - July 6, 2006] [959 from 2016-2025]
