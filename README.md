@@ -27,9 +27,57 @@ In the Scripts folder is the coding performed
 ● Section 3: Instructions for reproducing your results. In this section, you should give explicit step-by-step instructions to reproduce the Results of your study. These instructions should be written in straightforward plain English, but they must be concise, but detailed and precise enough, to make it possible for an interested user to reproduce your results without much difficulty. N.B. This section will be crucial for the CS1 assignment, where you'll be required to reproduce the results of other groups. Therefore, make sure to explain this section thoroughly.
 
 ## Instructions for reproducing your results. 
-We first scraped the data from IMDb user movie reviews for the first six movies in the Fast and Furious Franchise. We used Selenium and BeautifulSoup4 to scrape the data, the coding and exclipit way to do so can be found in the Scrips Folder under the file lable "Selenium_Dynamic_Scraping."
+Scraping
 
-Section 4: References!
+We first scraped data from IMDb user movie reviews for the first six movies in the Fast and Furious franchise. We used Selenium and BeautifulSoup4 to perform the scraping. Selenium was essential for handling dynamic scraping, which meant dealing with multiple pages of reviews rather than just the first page.
+
+To accomplish this, we accessed the page source of the IMDb user review section for each movie and identified the class types for different pieces of data. We scraped the following information: Rating, Author Name, Title of Review, Content of Review, and Date. Additionally, we had to locate the class type for the "ALL" button to extract all available reviews rather than just the first 25 that appeared by default.
+
+A few important considerations:
+
+- Any reviews containing spoilers were blocked by IMDb and could not be scraped. These were labeled as "No content" so we could manually add them later.
+- Any ratings that failed to scrape properly were marked as "No rating."
+- The complete code and step-by-step process for dynamic scraping can be found in the Scripts folder under the file labeled "Selenium_Dynamic_Scraping."
+
+Cleaning
+
+After scraping, we proceeded with cleaning the data. Each team member was responsible for two movies. The cleaning code is stored in the Scripts folder, with a separate file for each movie.
+
+Key steps in data cleaning:
+
+Data Type Conversion:
+- The Date column was converted to datetime.
+- The Rating column was converted to float.
+- Other columns remained as objects.
+
+Adding a "Year" Column:
+- We created a new column, "Year," and converted it to an integer format.
+- This made it easier to analyze both numerical and categorical variables.
+
+Filtering for Relevant Years:
+- We included reviews from a maximum of one month after each movie’s release date and a decade later to the present.
+- For example, for the first movie (released in 2001), we gathered reviews up to one month post-release and then from 2011 to the present.
+- This allowed us to compare audience reactions shortly after release with opinions a decade later.
+
+Handling Missing Data:
+- "No rating" entries were replaced with the mean rating from the successfully scraped data.
+- "No content" entries were manually updated by retrieving the missing text from IMDb user reviews. This was done using either a dictionary in Python or manually in Excel.
+
+Finally, the cleaned dataset was saved as a CSV file and uploaded to the Scripts folder.
+
+Analysis with VADER
+
+Once the data was cleaned, we applied the VADER Sentiment Analysis tool to evaluate the sentiment of the reviews. This provided scores indicating:
+
+- The percentage of positive, neutral, and negative sentiment in each review.
+- An overall sentiment percentage determining whether a review was mostly positive, neutral, or negative.
+As part of our analysis, we generated a bar graph for the third movie in the franchise, displaying the average sentiment scores by year.
+
+All analysis outputs, including sentiment results and visualizations, can be found in the OUTPUT folder. Each file is named according to the corresponding movie.
+
+--
+
+## Section 4: References!
 [1] Ansari, Aamir Ahmad. “Selenium with Beautifulsoup Tutorial[Python].” Medium, 17 Jan. 2022. [Online]. 
 Available: aamir07.medium.com/selenium-with-beautifulsoup-tutorial-python-ff9362e1571c. [Accessed: Feb. 5, 2025].
 
