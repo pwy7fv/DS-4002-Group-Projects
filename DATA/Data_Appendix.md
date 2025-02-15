@@ -361,7 +361,7 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 
 --
 
-## Dataset 5  - *Fast Five (2011)* First 4 weeks
+## Dataset 4 - *Fast Five (2011)* First 4 weeks
 
 ### Unit of Observation:
 Each row in this dataset represents a movie review from a user for _Fast Five_, written between April 29, 2011 - May 29, 2011 . The unit of observation remains the same as in the prior datasets: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
@@ -417,15 +417,15 @@ Each row in this dataset represents a movie review from a user for _Fast Five_, 
 
 ### Figures and Tables:
 #### Distribution of _Fast Five_ Reviews by Date (April 29 2011 to May 27 2011)
-![image]()
+![Alt text](image-4.png)
 
 #### Boxplot of _Fast Five_ Ratings (April 29 2011 to May 27 2011)
-![image]()
+![Alt text](image.png)
 
 
 --
 
-## Dataset 6  - *Fast Five (2011)* 10 years later
+## Dataset 5 - *Fast Five (2011)* 10 years later
 
 ### Unit of Observation:
 Each row in this dataset represents a movie review from a user for _Fast Five_, written between 2021 - 2024 . The unit of observation remains the same as in the prior datasets: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
@@ -481,13 +481,16 @@ Each row in this dataset represents a movie review from a user for _Fast Five_, 
 
 ### Figures and Tables:
 #### Distribution of _Fast Five_ Reviews by Year(2021-2024)
-![image]()
+![Alt text](image-6.png)
 
+
+#### Boxplot of _Fast Five_ Ratings (2021 - 2024)
+![Alt text](image-1.png)
 
 
 --
 
-## Dataset 7  - *Fast and Furious 6 (2013)* First 4 weeks
+## Dataset 6 - *Fast and Furious 6 (2013)* First 4 weeks
 
 ### Unit of Observation:
 Each row in this dataset represents a movie review from a user for _Fast and Furious 6_, written between May 24, 2013 - June 24, 2013 . The unit of observation remains the same as in the prior datasets: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
@@ -543,13 +546,15 @@ Each row in this dataset represents a movie review from a user for _Fast and Fur
 
 ### Figures and Tables:
 #### Distribution of _Fast and Furious 6_ Reviews by Date
-![image]()
+![Alt text](image-5.png)
 
 
+#### Boxplot of _Fast and Furious 6_ Ratings (May 24, 2013 to June 24, 2013)
+![Alt text](image-3.png)
 
 --
 
-## Dataset 8  - *Fast and Furious 6 (2013)* 10 Years later
+## Dataset 7  - *Fast and Furious 6 (2013)* 10 Years later
 
 ### Unit of Observation:
 Each row in this dataset represents a movie review from a user for _Fast and Furious 6_, written between 2023 - 2024 . The unit of observation remains the same as in the prior datasets: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
@@ -605,4 +610,7 @@ Each row in this dataset represents a movie review from a user for _Fast and Fur
 
 ### Figures and Tables:
 #### Distribution of _Fast and Furious 6_ Reviews by Year
-![image]()
+![Alt text](image-7.png)
+
+#### Boxplot of _Fast and Furious 6_ Ratings (2023 - 2024)
+![Alt text](image-2.png)
