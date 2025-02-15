@@ -1,20 +1,25 @@
 # DS-4002-Group-Projects : TEAM SBT
-  ● Goal: This file serves as an orientation to everyone who comes to your repository, it should enable them to get their bearings. ● Use markdown headers to divide content. ● Make an H2 (##) section explaining the contents of the repository 
-  
-  ● Section 1: Software and platform section ○ The type(s) of software you used for the project. ○ The names of any add-on packages that need to be installed with the software. ○ The platform (e.g., Windows, Mac, or Linux) you used.  
 
-## Software and platform section
-○	The type(s) of software you used for the project.
-- We use beautiful soup 4 and selenium for webscraping
-- we used python and google collab for EDA and graph making
-- We used PyCharm to perform Vader Analysis
-○	The names of any add-on packages that need to be installed with the software.
-- vader
-- sellenium
-- beautiful soup
-- just copy and paste from code
-○	The platform (e.g., Windows, Mac, or Linux) you used.
-- windows and mac
+## Section 1: Software and Platform Used
+
+### Software:
+- **Python**: The primary programming language used for this project.
+- **PyCharm**: The Integrated Development Environment (IDE) used for coding, specifically for sentiment analysis with VADER.
+- **Google Colab**: The cloud-based platform used for running Jupyter notebooks, particularly for data analysis, cleaning, and visualization.
+  
+### Add-on Packages:
+- **Pandas**: For data manipulation and cleaning.
+- **NumPy**: For numerical operations.
+- **Matplotlib** and **Seaborn**: For data visualization, including histograms and box plots.
+- **Requests**: For making HTTP requests to retrieve web content.
+- **Selenium**: For web scraping, particularly for scraping data from IMDb.
+- **Chromium and Chromedriver**: Used in conjunction with Selenium to control the web browser for scraping.
+- **BeautifulSoup**: For parsing HTML content to extract specific data.
+- **VADER** (via `vaderSentiment`): For performing sentiment analysis on the reviews.
+
+### Platform:
+- **Mac** and **Windows**: These operating systems were used during development.
+- **Google Colab**: Used as an online platform to execute Python code and visualize data in real-time.
 
 ● Section 2: A Map of your documentation. In this section, you should provide an outline or tree illustrating the hierarchy of folders and subfolders contained in your Project Folder, and listing the files stored in each folder or subfolder.
 
@@ -22,7 +27,6 @@
 In the folder DATA, The reviews for each movie beofre and after
 In the OUTCOME FOLDER .... I assume is graphs and styff
 In the Scripts folder is the coding performed
-
 
 ## Instructions for reproducing your results. 
 Scraping
