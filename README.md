@@ -21,7 +21,55 @@
 - **Mac** and **Windows**: These operating systems were used during development.
 - **Google Colab**: Used as an online platform to execute Python code and visualize data in real-time.
 
-● Section 2: A Map of your documentation. In this section, you should provide an outline or tree illustrating the hierarchy of folders and subfolders contained in your Project Folder, and listing the files stored in each folder or subfolder.
+
+### Map of Documentation
+
+**DS-4002-GROUP-PROJECTS**
+- DATA (main folder)
+    - Cleaned Data (sub folder)
+        - FAF1_2001_cleaned.csv
+        - FAF1_2011_cleaned.csv
+        - FAF1_2013_cleaned.csv
+        - FAF1_2003_cleaned.csv
+        - FF3_clean_data.csv
+        - FF4_clean_data.csv
+        - FF5_clean_dec2.csv
+        - FF5_clean2011_3.csv
+        - FF6_clean_dec2.csv
+        - FF6_clean2013_2.csv
+    - Original Data (sub folder)
+        - FF2reviews_data.csv
+        - FF3reviews_data.csv
+        - FF4reviews_data.csv
+        - FF5reviews_data.csv
+        - FF6reviews_data.csv
+        - reviews_data(1).csv
+        - reviews_data.csv
+    - Data_Appendix.md
+    - image-1.png (graph in data appendix)
+    - image-2.png (graph in data appendix)
+    - image-3.png (graph in data appendix)
+    - image-4.png (graph in data appendix)
+    - image-5.png (graph in data appendix)
+    - image-6.png (graph in data appendix)
+    - image-7.png (graph in data appendix)
+    - image.png (graph in data appendix)
+- OUTPUT (main folder)
+    - FF3_ + FF4_Vader_Visualizations.ipynb
+    - FF3_Vader_Analysis.ipynb
+- SCRIPTS (main folder)
+    - DS-4002-Group-Projects
+    - Cleaning_FAF1_FAF2_PLUS_GRAPHING.ipynb
+    - FF3_ + FF4_clean.ipynb
+    - FF5_clean.ipynb
+    - FF6_clean.ipynb
+    - Selenium_Dynamic_Scraping.ipynb
+- delete.md
+- LICENSE.md
+- README.md
+
+
+
 
 ## A Map of your documentation.
 In the folder DATA, The reviews for each movie beofre and after
