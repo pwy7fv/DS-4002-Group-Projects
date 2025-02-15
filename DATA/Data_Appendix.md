@@ -419,6 +419,10 @@ Each row in this dataset represents a movie review from a user for _Fast Five_, 
 #### Distribution of _Fast Five_ Reviews by Date (April 29 2011 to May 27 2011)
 ![image]()
 
+#### Boxplot of _Fast Five_ Ratings (April 29 2011 to May 27 2011)
+![image]()
+
+
 --
 
 ## Dataset 6  - *Fast Five (2011)* 10 years later
