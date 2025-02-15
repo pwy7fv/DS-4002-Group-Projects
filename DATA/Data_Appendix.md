@@ -277,7 +277,12 @@ This graph shows how the average star rating changes over time
 - **Defintion**: The date the review was published.
 - **Date Range**: The reviews span from **February 14, 2013** to **ebruary 4, 2025**.
 - **missing values**: None
-- **method to final form**: The dates were scraped from the movies imdb page using selenium. It was then changed to fit a YYYY-MM-DD format in python. 
+- **method to final form**: The dates were scraped from the movies imdb page using selenium. It was then changed to fit a YYYY-MM-DD format in python.
+
+#### Summary of Title:
+- **Defintion**: The name of the review.
+- **missing values**: None
+- **method to final form**: The review titles were scraped from the movies imdb page using selenium.
 
 #### Summary of Content:
 **Defintion**: The review text written by the user.
@@ -302,21 +307,27 @@ This graph shows how the average star rating changes over time
 
 --
 
-## Dataset 5 - The Fast and The Furious: Tokyo Drift (2006)
+## Section 5: Dataset 5 - The Fast and The Furious: Tokyo Drift (2006, First three weeks)
 
 ### Unit of Observation:
-Each row in the dataset represents a movie review from a user for _The Fast and the Furious: Tokyo Drift_, written between June 16, 2006- July 6, 2006 and then post-2016. The unit of observation remains the same as in Dataset 1: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
+Each row in the dataset represents a movie review from a user for _The Fast and the Furious: Tokyo Drift_, written between June 16, 2006- July 6, 2006. The unit of observation remains the same as in Dataset 1: a movie review with attributes such as Rating, Title, Content, Author Name, Date, and Year.
 
 ### Variables:
-- **Rating**: Numeric values representing the review rating, ranging from 1 to 10. Missing values were handled similarly as in the previous dataset by replacing "No rating" with the mean rating.
-- **Title**: The name of the review.
-- **Content**: The review text written by the user. Missing text was handled by manually finding the mising text from IMDb wesbite and adding them to the dataframe.
-- **Author Name**: The name of the reviewer.
-- **Date**: The date the review was posted.
+- **Rating**: Float64
+- **Title**: Objects
+- **Content**: Object
+- **Author Name**: Object
+- **Date**: DateTime 
+- **Year**: Int64
 
 ### Descriptive Statistics:
 
 #### Summary Statistics for Rating:
+
+- **Defintion**: Numeric values representing the review rating. Missing data was replaced with the mean of all numeric ratings in the dataset.
+- **missing values**: Missing values were handled in cleaning by replacing "No rating" with the mean of the rating.
+- **method to final form**: The dates were extracted from the movie's IMDb page using Selenium. In Python, the mean for the specified time period was calculated and used to replace any "No rating" values in the dataset.
+  
 | Metric | Value |
 |--------|-------|
 | Count  | 103.000000 |
@@ -328,73 +339,273 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 | Max    | 10.000000  |
 | Std Dev| 2.723613  |
 
+#### Figure 1:  Boxplot of data (June 16, 2006 - July 6,2006)
+![image](https://github.com/user-attachments/assets/3a0542e0-bf6e-4e03-8ffe-fe7a1994da82)
+
+#### Figure 2: Mean of Movie Ratings by Date (June 16, 2006 - Jully, 6, 2006)
+
 
 #### Summary Statistics for Date:
-- **Date Range**: June + July 2006 to 2016-2025
-- **Total Number of Reviews**: [321 Total] [126 from June 16, 2006 - July 6, 2006] [195 from 2016-2025] 
+- - **Definition:** The date the review was posted.
+- **Date Range:** June + July 2006 to 2016-2025
+- **Missing value:**
+- **Method to final form:**
+- **Total Number of Reviews**: [321 Total] [126 from June 16, 2006 - July 6, 2006] [195 from 2016-2025]
 
-#### Content:
+### Figures 3: Distribution of The Fast and Furious: Tokyo Drift Movie Reviews by Date (June 16, 2006 - July 6, 2006)
+![image](https://github.com/user-attachments/assets/2b821d4a-bc01-4d67-a35c-c1f875e6c069)
+
+#### Summary of Title:
+- **Defintion**: The name of the review.
+- **missing values**: None
+- **method to final form**: The review titles were scraped from the movies imdb page using selenium.
+
+#### Summary Statistic for Content:
+-**Defintion:**
+- **Missing value:**
+- **Method to final form:**
 - **Average Review Length**: [1059 Total] [1241 from June 16, 2006 - July 6, 2006] [942 from 2016-2025]
 
-#### Author Name:
+#### Summary Statistic for Author Name:
+-**Defintion:**
+- **Missing value:**
+- **Method to final form:**
 - **Unique Reviewers**: [320 Total] [126 from June 16, 2006 - July 6, 2006] [194 from 2016-2025]
 
 
-#### Date:
+#### Summary Statistic for Year:
+- - **Definition:** The date the review was posted.
+- **Date Range:** June + July 2006 to 2016-2025
+- **Missing value:**
+- **Method to final form:**
 - The reviews span from June 16, 2006 - July 6, 2006 to 2016 - 2025.
-
-
-### Figures and Tables:
-#### Distribution of The Fast and Furious: Tokyo Drift Movie Reviews by Date (June 16, 2006 - July 6, 2006 to 2016 - 2025.)
-![image](https://github.com/user-attachments/assets/2b821d4a-bc01-4d67-a35c-c1f875e6c069)
 
 --
 
-## Dataset 3 - Fast & Furious (2009)
+## Section 6: Dataset 6 - The Fast and The Furious: Tokyo Drift (2016 and after)
 
 ### Unit of Observation:
-Each row in the dataset represents a movie review from a user for _The Fast and the Furious: Tokyo Drift_, written between March 30, 2009- April 9, 2009 and then post-2019. The unit of observation remains the same as in Dataset 1: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
+Each row in the dataset represents a movie review from a user for _The Fast and the Furious: Tokyo Drift_, written between 2016 to the present. The unit of observation remains the same as in Dataset 1: a movie review with attributes such as Rating, Title, Content, Author Name, Date, and Year.
 
 ### Variables:
-- **Rating**: Numeric values representing the review rating, ranging from 1 to 10. Missing values were handled similarly as in the previous dataset by replacing "No rating" with the mean rating.
-- **Title**: The name of the review.
-- **Content**: The review text written by the user. Missing text was handled by manually finding the mising text from IMDb wesbite and adding them to the dataframe.
-- **Author Name**: The name of the reviewer.
-- **Date**: The date the review was posted.
+- **Rating**: Float64
+- **Title**: Objects
+- **Content**: Object
+- **Author Name**: Object
+- **Date**: DateTime 
+- **Year**: Int64
 
 ### Descriptive Statistics:
 
 #### Summary Statistics for Rating:
+
+- **Defintion**: Numeric values representing the review rating. Missing data was replaced with the mean of all numeric ratings in the dataset.
+- **missing values**: Missing values were handled in cleaning by replacing "No rating" with the mean of the rating.
+- **method to final form**: The dates were extracted from the movie's IMDb page using Selenium. In Python, the mean for the specified time period was calculated and used to replace any "No rating" values in the dataset.
+  
 | Metric | Value |
 |--------|-------|
-| Count  | |180.000000|
-| Mean   |  6.677778|
+| Count  | 103.000000 |
+| Mean   | 6.071429 |
 | Min    | 1.000000 |
-| 25%    | 6.000000 |
-| Median | 6.677777777777778|
-| 75%    | 8.000000|
-| Max    |  10.000000 |
-| Std Dev|  2.043263 |
+| 25%    | 5.000000 |
+| Median | 6.071429 |
+| 75%    | 8.000000 |
+| Max    | 10.000000  |
+| Std Dev| 2.723613  |
+
+#### Figure 1:  Boxplot of data (June - July 2006)
+![image](https://github.com/user-attachments/assets/3a0542e0-bf6e-4e03-8ffe-fe7a1994da82)
+
+#### Figure 2: Mean of Movie Ratings by Year (2016 and after)
 
 
 #### Summary Statistics for Date:
-- **Date Range**: March 2009 to 2019-2025
-- **Total Number of Reviews**: [180 Total] [66 from March, 30 2009 - April, 9 2009] [114 from 2016-2025] 
+- - **Definition:** The date the review was posted.
+- **Date Range:** 2016-2025
+- **Missing value:**
+- **Method to final form:**
+- **Total Number of Reviews**: [321 Total] [126 from June 16, 2006 - July 6, 2006] [195 from 2016-2025]
 
-#### Content:
-- **Average Review Length**: [1114 Total] [1384 from June 16, 2006 - July 6, 2006] [959 from 2016-2025]
-
-#### Author Name:
-- **Unique Reviewers**: [180 Total] [66 from June 16, 2006 - July 6, 2006] [114 from 2016-2025]
-
-
-#### Date:
-- The reviews span from March 30, 2009 - April 9, 2009 to 2019 - 2025.
+#### Summary of Title:
+- **Defintion**: The name of the review.
+- **missing values**: None
+- **method to final form**: The review titles were scraped from the movies imdb page using selenium.
 
 
-### Figures and Tables:
-#### Distribution of Fast & Furious Movie Reviews by Date (March 30, 2009 - April 9, 2009 to 2019 - 2025)
-![image](https://github.com/user-attachments/assets/a2da0df7-54ca-4dd7-9c1e-f935b1c5aa13)
+#### Summary Statistic for Content:
+-**Defintion:**
+- **Missing value:**
+- **Method to final form:**
+- **Average Review Length**: [1059 Total] [1241 from June 16, 2006 - July 6, 2006] [942 from 2016-2025]
+
+#### Summary Statistic for Author Name:
+-**Defintion:**
+- **Missing value:**
+- **Method to final form:**
+- **Unique Reviewers**: [320 Total] [126 from June 16, 2006 - July 6, 2006] [194 from 2016-2025]
+
+
+#### Summary Statistic for Year:
+- - **Definition:** The date the review was posted.
+- **Date Range:** 2016-2025
+- **Missing value:**
+- **Method to final form:**
+- The reviews span from 2016 - 2025.
+
+### Figures 3: Distribution of The Fast and Furious: Tokyo Drift Movie Reviews by Year (2016-2025)
+
+--
+
+## Section 7: Dataset 7 - Fast & Furious: (2009, First three weeks)
+
+### Unit of Observation:
+Each row in the dataset represents a movie review from a user for _Fast & Furious_, written between March 30, 2009 - April 9, 2009. The unit of observation remains the same as in Dataset 1: a movie review with attributes such as Rating, Title, Content, Author Name, Date, and Year.
+
+### Variables:
+- **Rating**: Float64
+- **Title**: Objects
+- **Content**: Object
+- **Author Name**: Object
+- **Date**: DateTime 
+- **Year**: Int64
+
+### Descriptive Statistics:
+
+#### Summary Statistics for Rating:
+
+- **Defintion**: Numeric values representing the review rating. Missing data was replaced with the mean of all numeric ratings in the dataset.
+- **missing values**: Missing values were handled in cleaning by replacing "No rating" with the mean of the rating.
+- **method to final form**: The dates were extracted from the movie's IMDb page using Selenium. In Python, the mean for the specified time period was calculated and used to replace any "No rating" values in the dataset.
+  
+| Metric | Value |
+|--------|-------|
+| Count  | 103.000000 |
+| Mean   | 6.071429 |
+| Min    | 1.000000 |
+| 25%    | 5.000000 |
+| Median | 6.071429 |
+| 75%    | 8.000000 |
+| Max    | 10.000000  |
+| Std Dev| 2.723613  |
+
+#### Figure 1:  Boxplot of data (March - April 2009)
+![image](https://github.com/user-attachments/assets/3a0542e0-bf6e-4e03-8ffe-fe7a1994da82)
+
+#### Figure 2: Mean of Movie Ratings by Date (March - April 2009)
+
+#### Summary Statistics for Date:
+- - **Definition:** The date the review was posted.
+- **Date Range:** March 30, 2009 - April 9, 2009
+- **Missing value:**
+- **Method to final form:**
+- **Total Number of Reviews**: [Total]
+
+  ### Figures 3: Distribution of Fast & Furious Movie Reviews by Date (March 30, 2009 - April 9, 2009)
+![image](https://github.com/user-attachments/assets/2b821d4a-bc01-4d67-a35c-c1f875e6c069)
+
+ #### Summary of Title:
+- **Defintion**: The name of the review.
+- **missing values**: None
+- **method to final form**: The review titles were scraped from the movies imdb page using selenium.
+
+#### Summary Statistic for Content:
+-**Defintion:**
+- **Missing value:**
+- **Method to final form:**
+- **Average Review Length**: [Total] 
+
+#### Summary Statistic for Author Name:
+-**Defintion:**
+- **Missing value:**
+- **Method to final form:**
+- **Unique Reviewers**: [Total]
+
+
+#### Summary Statistic for Year:
+- - **Definition:** The date the review was posted.
+- **Date Range:** March 30, 2009 - Apirl 9, 2009 
+- **Missing value:**
+- **Method to final form:**
+- The reviews span from March 30, 2009 - April 9, 2009
+
+
+--
+
+## Section 8: Dataset 8 - Fast & Furious (2019 - 2025)
+
+### Unit of Observation:
+Each row in the dataset represents a movie review from a user for _Fast & Furious_, written between 2019 to the present. The unit of observation remains the same as in Dataset 1: a movie review with attributes such as Rating, Title, Content, Author Name, Date, and Year.
+
+### Variables:
+- **Rating**: Float64
+- **Title**: Objects
+- **Content**: Object
+- **Author Name**: Object
+- **Date**: DateTime 
+- **Year**: Int64
+
+### Descriptive Statistics:
+
+#### Summary Statistics for Rating:
+
+- **Defintion**: Numeric values representing the review rating. Missing data was replaced with the mean of all numeric ratings in the dataset.
+- **missing values**: Missing values were handled in cleaning by replacing "No rating" with the mean of the rating.
+- **method to final form**: The dates were extracted from the movie's IMDb page using Selenium. In Python, the mean for the specified time period was calculated and used to replace any "No rating" values in the dataset.
+  
+| Metric | Value |
+|--------|-------|
+| Count  | 103.000000 |
+| Mean   | 6.071429 |
+| Min    | 1.000000 |
+| 25%    | 5.000000 |
+| Median | 6.071429 |
+| 75%    | 8.000000 |
+| Max    | 10.000000  |
+| Std Dev| 2.723613  |
+
+#### Figure 1:  Boxplot of data (2019 - 2025)
+![image](https://github.com/user-attachments/assets/3a0542e0-bf6e-4e03-8ffe-fe7a1994da82)
+
+#### Figure 2: Mean of Movie Ratings by Year(2019 - 2025)
+
+
+#### Summary Statistics for Date:
+- - **Definition:** The date the review was posted.
+- **Date Range:** 2019-2025
+- **Missing value:**
+- **Method to final form:**
+- **Total Number of Reviews**: [Total] 
+
+#### Summary of Title:
+- **Defintion**: The name of the review.
+- **missing values**: None
+- **method to final form**: The review titles were scraped from the movies imdb page using selenium.
+
+#### Summary Statistic for Content:
+-**Defintion:**
+- **Missing value:**
+- **Method to final form:**
+- **Average Review Length**: [Total] 
+
+#### Summary Statistic for Author Name:
+-**Defintion:**
+- **Missing value:**
+- **Method to final form:**
+- **Unique Reviewers**: [Total] 
+
+
+#### Summary Statistic for Year:
+- - **Definition:** The date the review was posted.
+- **Date Range:** 2019-2025
+- **Missing value:**
+- **Method to final form:**
+- The reviews span from 2019 - 2025.
+
+### Figures 3: Distribution Fast & Furious Movie Reviews by Year (2019-2025)
+
+--
+
 
 
 --
