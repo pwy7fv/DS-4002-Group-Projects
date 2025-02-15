@@ -11,16 +11,21 @@ The purpose of this data appendix is to provide a detailed description of the da
 Each row in the dataset represents a movie review from a user for the first movie in the Fast and Furious franchise, _The Fast and Furious_, written between **June 22nd and July 13th, 2001**. The unit of observation is a movie review, where each row contains the following attributes:
 
 ### Variables:
-- **Rating**
-- **Title**: 
-- **Content**
-- **Author Name**
-- **Date**
+- **Rating**: Floats 
+- **Title**: Objects
+- **Content**: Object
+- **Author Name**: Object
+- **Date**: DateTime 
+- **Year**: Float
+ 
 
 ### Descriptive Statistics:
 
 #### Summary Statistics for Rating:
 - **Defintion**: Numeric values representing the review rating. Missing data was replaced with the mean of all numeric ratings in the dataset.
+- **missing values**: There are no missing values in the datset after cleaning, they were replaced by the mean rating score of the datset
+- **method to final form**: The dates were extracted from the movie's IMDb page using Selenium. In Python, the mean for the specified time period was calculated and used to replace any "No rating" values in the dataset.
+
 
 | Metric | Value |
 |--------|-------|
@@ -33,32 +38,48 @@ Each row in the dataset represents a movie review from a user for the first movi
 | Max    | 10    |
 | Std Dev| 2.29  |
 
-
-#### Summary Statistics for Date:
-- **Defintion**: The date the review was published.
-- **Date Range**: - The reviews span from **June 22, 2001** to **July 13, 2001**.
-
-#### Summary of Title:
-- **Defintion**: The name of the review.
-  
-#### Summary of Content:
-**Defintion**: he review text written by the user.
-
-#### Author Name:
-- **Definition**: The name of the reviewer
-
----
-
 ### Figures and Tables:
-#### Figure 1: Distribution of Movie Reviews by Date (June-July 2001)
+#### Figure 1:  Boxplot of data (June-July 2001)
+![image](https://github.com/user-attachments/assets/44b45ace-5115-47e1-85db-6e3f1347e4af)
+*The June-July 2001 dataset consists of 162 reviews with an average rating of 7.93. Ratings range from 1 to 10, with most ratings being above 7.93. The median rating is 8, and the standard deviation is 2.29, indicating some variation in user opinions. Most reviews are highly positive, with a significant number of 10 ratings.*
 
-[Insert plot of reviews by date for June-July 2001]
-![image](https://github.com/user-attachments/assets/6ecaaa95-3d24-4395-8de6-c533e4a3f873)
-This graph shows the distribution of reivew dates
+#### Figure 2: Mean of Movie Reviews by Date (June-July 2001)
 ![image](https://github.com/user-attachments/assets/8b2436f8-4d4c-4a6d-af68-9728808a11b2)
 This graph shows how the average star rating changes over time
 
 
+#### Summary Statistics for Date:
+- **Defintion**: The date the review was published.
+- **Date Range**: The reviews span from **June 22, 2001** to **July 13, 2001**.
+- **missing values**: None
+- **method to final form**: The dates were scraped from the movies imdb page using selenium. It was then changed to fit a YYYY-MM-DD format in python. 
+
+#### Figure 3: Distribution of Movie Reviews by Date (June-July 2001)
+[Insert plot of reviews by date for June-July 2001]
+![image](https://github.com/user-attachments/assets/6ecaaa95-3d24-4395-8de6-c533e4a3f873)
+This graph shows the distribution of reivew dates
+
+#### Summary of Title:
+- **Defintion**: The name of the review.
+- **missing values**: None
+- **method to final form**: The review titles were scraped from the movies imdb page using selenium.
+  
+#### Summary of Content:
+**Defintion**: The review text written by the user.
+- **missing values**: None
+- **method to final form**: Reviews were scraped from the movie’s IMDb page using Selenium. Reviews marked with a spoiler warning were initially scraped as having "No content". To clean the dataset, missing reviews were manually identified, and content was copied from the original source into the CSV file.
+
+
+#### Summary of Author Name:
+- **Definition**: The name of the reviewer
+- **missing values**: None
+- **method to final form**: The reviewers names were scraped from the movies imdb page using selenium.
+
+#### Summary of Year:
+- **Defintion**: The Year the review was published.
+- **Year Range**: 2001 for all
+- **missing values**: None
+- **method to final form**: The years were extracted from the full date using python
 ---
 
 ## Section 2: Dataset 2 - The Fast and Furious Reviews (Post-2011)
@@ -67,16 +88,18 @@ This graph shows how the average star rating changes over time
 Each row in the dataset represents a movie review from a user for _The Fast and the Furious_, written during and after **2011**. The unit of observation remains the same as in Dataset 1: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
 
 ### Variables:
-- **Rating**
-- **Title**: 
-- **Content**
-- **Author Name**
-- **Date**
+- **Rating**: Floats 
+- **Title**: Objects
+- **Content**: Object
+- **Author Name**: Object
+- **Date**: DateTime 
+- **Year**: Float
 
 ### Descriptive Statistics:
 
 #### Summary Statistics for Rating:
 - **Defintion**: Numeric values representing the review rating. Missing data was replaced with the mean of all numeric ratings in the dataset.
+- **missing values**: There are no missing values in the datset after cleaning, they were replaced by the mean rating score of the datset
 
 | Metric | Value |
 |--------|-------|
@@ -95,22 +118,34 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 
 #### Summary of Title:
 - **Defintion**: The name of the review.
+- **missing values**: None
+- **method to final form**: The review titles were scraped from the movies imdb page using selenium.
   
 #### Summary of Content:
-**Defintion**: he review text written by the user.
+**Defintion**: The review text written by the user.
+- **missing values**: None
+- **method to final form**: Reviews were scraped from the movie’s IMDb page using Selenium. Reviews marked with a spoiler warning were initially scraped as having "No content". To clean the dataset, missing reviews were manually identified, and content was copied from the original source into the CSV file.
 
-#### Author Name:
+
+#### Summary of Author Name:
 - **Definition**: The name of the reviewer
+- **missing values**: None
+- **method to final form**: The reviewers names were scraped from the movies imdb page using selenium.
 
+#### Summary of Year:
+- **Defintion**: The Year the review was published.
+- **Year Range**: 2001 for all
+- **missing values**: None
+- **method to final form**: The years were extracted from the full date using python
 ---
 
 ### Figures and Tables:
 #### Figure 2: Distribution of Movie Reviews by Date (Post-2011)
 
 ![image](https://github.com/user-attachments/assets/2d44648a-4cc9-4ca5-b828-56d55394d032)
-- This graph shows the distribution of reviews by year
+This graph shows the distribution of reviews by year
 ![image](https://github.com/user-attachments/assets/a973f3ca-b073-49d5-a632-402fba468d42)
-- This graph shows how the average star rating changed over time
+This graph shows how the average star rating changed over time
 
 
 ---
