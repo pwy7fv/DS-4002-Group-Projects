@@ -133,42 +133,45 @@ Available: aamir07.medium.com/selenium-with-beautifulsoup-tutorial-python-ff9362
 
 [2] ChatGPT, “Chatgpt.” [Online]. Available: chatgpt.com/. [Accessed 5 Feb. 2025].
 
-[3] Gong, Jason. “Web Scraping Rotten Tomatoes: A Step-by-Step Guide.” Bardeen AI: Workflow Task Automation Software, 3 Mar. 2024. [Online]. Available: www.bardeen.ai/answers/how-to-web-scrape-rotten-tomatoes. [Accessed: Feb. 5, 2025].
+[3] GeeksforGeeks “How to Conduct a Two Sample T-Test in Python.” GeeksforGeeks, 17 Oct. 2022. [Online].
+Available: www.geeksforgeeks.org/how-to-conduct-a-two-sample-t-test-in-python/. [Accessed: Feb 15, 2025].
 
-[4] Hutto, C.J. “VADER-Sentiment-Analysis.” GitHub, 14 Mar. 2021. [Online]. 
+[4] Gong, Jason. “Web Scraping Rotten Tomatoes: A Step-by-Step Guide.” Bardeen AI: Workflow Task Automation Software, 3 Mar. 2024. [Online]. Available: www.bardeen.ai/answers/how-to-web-scrape-rotten-tomatoes. [Accessed: Feb. 5, 2025].
+
+[5] Hutto, C.J. “VADER-Sentiment-Analysis.” GitHub, 14 Mar. 2021. [Online]. 
 Available: github.com/cjhutto/vaderSentiment. [Accessed: Feb. 2, 2025].
 
-[5] IMDb, “The Fast and the Furious User Reviews,” IMDb. [Online]. 
+[6] IMDb, “The Fast and the Furious User Reviews,” IMDb. [Online]. 
 Available: https://www.imdb.com/title/tt0232500/reviews/?ref_=tt_ururv_sm. [Accessed: Feb. 3, 2025].
 
-[6] IMDb, “2 Fast 2 Furious User Reviews,” IMDb. [Online]. 
+[7] IMDb, “2 Fast 2 Furious User Reviews,” IMDb. [Online]. 
 Available: https://www.imdb.com/title/tt0322259/reviews/?ref_=tt_ururv_sm. [Accessed: Feb. 3, 2025].
 
-[7] IMDb, “The Fast and the Furious: Tokyo Drift User Reviews ,” IMDb. [Online]. 
+[8] IMDb, “The Fast and the Furious: Tokyo Drift User Reviews ,” IMDb. [Online]. 
 Available: https://www.imdb.com/title/tt0463985/reviews/?ref_=tt_ururv_sm. [Accessed: Feb. 3, 2025].
 
-[8] IMDb, “Fast & Furious User Reviews ,” IMDb. [Online]. 
+[9] IMDb, “Fast & Furious User Reviews ,” IMDb. [Online]. 
 Available: https://www.imdb.com/title/tt1013752/reviews/?ref_=tt_ururv_sm. [Accessed: Feb. 3, 2025].
 
-[9] IMDb, “Fast Five User Reviews ,” IMDb. [Online]. 
+[10] IMDb, “Fast Five User Reviews ,” IMDb. [Online]. 
 Available: https://www.imdb.com/title/tt1596343/reviews/?ref_=tt_ururv_sm. [Accessed: Feb. 3, 2025].
 
-[10] IMDb, “Fast & Furious 6 User Reviews ,” IMDb. [Online]. 
+[11] IMDb, “Fast & Furious 6 User Reviews ,” IMDb. [Online]. 
 Available: https://www.imdb.com/title/tt1905041/reviews/?ref_=tt_ururv_sm. [Accessed: Feb. 3, 2025].
 
-[11] Nayak, Rahul. “Web Scraping Using Beautiful Soup and Selenium for Dynamic Page.” Medium, YML Innovation Lab. 16 Feb. 2019. [Online].
+[12] Nayak, Rahul. “Web Scraping Using Beautiful Soup and Selenium for Dynamic Page.” Medium, YML Innovation Lab. 16 Feb. 2019. [Online].
 Available: medium.com/ymedialabs-innovation/web-scraping-using-beautiful-soup-and-selenium-for-dynamic-page-2f8ad15efe25.
 [Accessed: Feb. 5, 2025].
 
-[12] “Sentiment Analysis Using Vader - Using Python.” GeeksforGeeks, 11 Dec. 2024. [Online].
+[13] “Sentiment Analysis Using Vader - Using Python.” GeeksforGeeks, 11 Dec. 2024. [Online].
 Available: www.geeksforgeeks.org/python-sentiment-analysis-using-vader/. [Accessed: Feb. 4, 2025].
 
-[13] Sreedar, Arjhun. “Running Selenium on Google Colab.” Medium, 31 Oct. 2023. [Online].
+[14] Sreedar, Arjhun. “Running Selenium on Google Colab.” Medium, 31 Oct. 2023. [Online].
 Available: medium.com/@MinatoNamikaze02/running-selenium-on-google-colab-a118d10ca5f8. [Accessed: Feb. 5, 2025].
 
-[14] ThetaTheta. “How to Save the Result of Scraping in a CSV?” Stack Overflow, 2 Sept. 2021. [Online]. 
+[15] ThetaTheta. “How to Save the Result of Scraping in a CSV?” Stack Overflow, 2 Sept. 2021. [Online]. 
 Available: stackoverflow.com/questions/69030056/how-to-save-the-result-of-scraping-in-a-csv. [Accessed: Feb. 5, 2025].
 
-[15] Yoo, Nari. “[Python] How to Run Selenium in Google Colab.” Nari’s Research Log, 21 June 2023.[Online].
+[16] Yoo, Nari. “[Python] How to Run Selenium in Google Colab.” Nari’s Research Log, 21 June 2023.[Online].
 Available: nariyoo.com/python-how-to-run-selenium-in-google-colab/. [Accessed: Feb. 5, 2025].
 
