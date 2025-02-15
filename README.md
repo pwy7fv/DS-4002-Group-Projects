@@ -117,13 +117,16 @@ Finally, the cleaned dataset was saved as a CSV file and uploaded to the Scripts
 
 Analysis with VADER
 
-Once the data was cleaned, we applied the VADER Sentiment Analysis tool to evaluate the sentiment of the reviews. This provided scores indicating:
+Once the data was cleaned, we applied the VADER Sentiment Analysis tool to evaluate the sentiment of the reviews. We then added this newly found information as columns to our datasets. This new data from VADER consisted of:
 
-- The percentage of positive, neutral, and negative sentiment in each review.
-- An overall sentiment percentage determining whether a review was mostly positive, neutral, or negative.
-As part of our analysis, we generated a bar graph for the third movie in the franchise, displaying the average sentiment scores by year.
+- The percentage of positive sentiments in each review reviews which was named "Positive Score." 
+- The percentage of neutral sentiments in each reviews which was named "Neutral Score."
+- The percentage of negative sentiments in each review which was named "Negative Score."
+- An overall sentiment percentage determining whether a review was mostly positive, neutral, or negative, which was named "Overall Percenteange Score."
+- An overal sentiment lable of positve, neutral , or negative, which was named "Overall Sentiment"
+As part of our analysis, we generated many visualizations comparing the two different time periods for each movie in the franchise. 
 
-All analysis outputs, including sentiment results and visualizations, can be found in the OUTPUT folder. Each file is named according to the corresponding movie.
+All analysis outputs, including sentiment results and visualizations, can be found in the OUTPUT folder. Each file is named according to the corresponding movie. So for example the Fast & Furious (2009) and fourth in the franchishe is called FF4.  
 
 --
 
