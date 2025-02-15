@@ -455,10 +455,10 @@ Each row in this dataset represents a movie review from a user for _Fast Five_, 
 
 ### Figures and Tables:
 #### Distribution of _Fast Five_ Reviews by Date (April 29 2011 to May 27 2011)
-![Alt text](image-4.png)
+![Alt text](image.png)
 
 #### Boxplot of _Fast Five_ Ratings (April 29 2011 to May 27 2011)
-![Alt text](image.png)
+![Alt text](image-1.png)
 
 
 --
@@ -519,11 +519,11 @@ Each row in this dataset represents a movie review from a user for _Fast Five_, 
 
 ### Figures and Tables:
 #### Distribution of _Fast Five_ Reviews by Year(2021-2024)
-![Alt text](image-6.png)
+![Alt text](image-2.png)
 
 
 #### Boxplot of _Fast Five_ Ratings (2021 - 2024)
-![Alt text](image-1.png)
+![Alt text](image-3.png)
 
 
 --
@@ -583,12 +583,13 @@ Each row in this dataset represents a movie review from a user for _Fast and Fur
 
 
 ### Figures and Tables:
-#### Distribution of _Fast and Furious 6_ Reviews by Date
-![Alt text](image-5.png)
+#### Distribution of _Fast and Furious 6_ Reviews by Date (May 24, 2013 to June 24, 2013)
+![Alt text](image-4.png)
+
 
 
 #### Boxplot of _Fast and Furious 6_ Ratings (May 24, 2013 to June 24, 2013)
-![Alt text](image-3.png)
+![Alt text](image-5.png)
 
 --
 
@@ -648,7 +649,7 @@ Each row in this dataset represents a movie review from a user for _Fast and Fur
 
 ### Figures and Tables:
 #### Distribution of _Fast and Furious 6_ Reviews by Year
-![Alt text](image-7.png)
+![Alt text](image-6.png)
 
 #### Boxplot of _Fast and Furious 6_ Ratings (2023 - 2024)
-![Alt text](image-2.png)
+![Alt text](image-7.png)
