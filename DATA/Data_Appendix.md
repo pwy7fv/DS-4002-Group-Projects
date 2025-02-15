@@ -26,6 +26,7 @@ Each row in the dataset represents a movie review from a user for the first movi
 - **missing values**: There are no missing values in the datset after cleaning, they were replaced by the mean rating score of the datset
 - **method to final form**: The dates were extracted from the movie's IMDb page using Selenium. In Python, the mean for the specified time period was calculated and used to replace any "No rating" values in the dataset.
 
+### Figures and Tables:
 
 | Metric | Value |
 |--------|-------|
@@ -38,7 +39,6 @@ Each row in the dataset represents a movie review from a user for the first movi
 | Max    | 10    |
 | Std Dev| 2.29  |
 
-### Figures and Tables:
 #### Figure 1:  Boxplot of data (June-July 2001)
 ![image](https://github.com/user-attachments/assets/44b45ace-5115-47e1-85db-6e3f1347e4af)
 *The June-July 2001 dataset consists of 162 reviews with an average rating of 7.93. Ratings range from 1 to 10, with most ratings being above 7.93. The median rating is 8, and the standard deviation is 2.29, indicating some variation in user opinions. Most reviews are highly positive, with a significant number of 10 ratings.*
@@ -54,6 +54,7 @@ This graph shows how the average star rating changes over time
 - **missing values**: None
 - **method to final form**: The dates were scraped from the movies imdb page using selenium. It was then changed to fit a YYYY-MM-DD format in python. 
 
+### Figures:
 #### Figure 3: Distribution of Movie Reviews by Date (June-July 2001)
 [Insert plot of reviews by date for June-July 2001]
 ![image](https://github.com/user-attachments/assets/6ecaaa95-3d24-4395-8de6-c533e4a3f873)
@@ -100,10 +101,11 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 #### Summary Statistics for Rating:
 - **Defintion**: Numeric values representing the review rating. Missing data was replaced with the mean of all numeric ratings in the dataset.
 - **missing values**: There are no missing values in the datset after cleaning, they were replaced by the mean rating score of the datset
-
+- **method to final form**: The dates were extracted from the movie's IMDb page using Selenium. In Python, the mean for the specified time period was calculated and used to replace any "No rating" values in the dataset.
+### Figures and Tables:
 | Metric | Value |
 |--------|-------|
-| Count  | 374.000000 |
+| Count  | 374.000000|
 | Mean   | 7.442308 |
 | Min    | 1.000000 |
 | 25%    | 6.000000 |
@@ -112,9 +114,17 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 | Max    | 10.000000 |
 | Std Dev| 2.34765|
 
+#### Figure 4:  Boxplot of data (2011 and after)
+![image](https://github.com/user-attachments/assets/58a0b7e0-607c-4535-814b-9177bcc1d54b)
+*This dataset contains 374 reviews, with ratings ranging from 1 to 10. The average rating is 7.44, and the ratings are generally distributed between 6 and 10. The reviews span from April 28, 2011, to February 3, 2025, with a notable concentration of reviews around 2021 and 2023. The standard deviation of ratings is 2.35, indicating moderate variability in user reviews.*
+
+#### Figure 5: Mean of Movie Reviews by Date (2011 and after)
+![image](https://github.com/user-attachments/assets/2d44648a-4cc9-4ca5-b828-56d55394d032)
+This graph shows the distribution of reviews by year
+
 #### Summary Statistics for Date:
 - **Defintion**: The date the review was published.
-- **Date Range**: - The reviews include anything posted from Jan 1, 2011 and after
+- **Date Range**: - The reviews include anything posted on IMdb after Dec 31, 2010
 
 #### Summary of Title:
 - **Defintion**: The name of the review.
@@ -126,7 +136,6 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 - **missing values**: None
 - **method to final form**: Reviews were scraped from the movie’s IMDb page using Selenium. Reviews marked with a spoiler warning were initially scraped as having "No content". To clean the dataset, missing reviews were manually identified, and content was copied from the original source into the CSV file.
 
-
 #### Summary of Author Name:
 - **Definition**: The name of the reviewer
 - **missing values**: None
@@ -137,15 +146,14 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 - **Year Range**: 2001 for all
 - **missing values**: None
 - **method to final form**: The years were extracted from the full date using python
----
 
-### Figures and Tables:
-#### Figure 2: Distribution of Movie Reviews by Date (Post-2011)
-
-![image](https://github.com/user-attachments/assets/2d44648a-4cc9-4ca5-b828-56d55394d032)
-This graph shows the distribution of reviews by year
+### Figures:
+#### Figure 6: Distribution of Movie Reviews by Year (Post 2011)
 ![image](https://github.com/user-attachments/assets/a973f3ca-b073-49d5-a632-402fba468d42)
 This graph shows how the average star rating changed over time
+
+---
+
 
 
 ---
