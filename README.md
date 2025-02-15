@@ -1,6 +1,5 @@
 # DS-4002-Group-Projects : TEAM SBT
 
-## Software and platform section
 ## Section 1: Software and Platform Used
 
 ### Software:
