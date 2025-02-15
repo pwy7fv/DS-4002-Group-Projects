@@ -1,7 +1,4 @@
 # DS-4002-Group-Projects : TEAM SBT
-  ● Goal: This file serves as an orientation to everyone who comes to your repository, it should enable them to get their bearings. ● Use markdown headers to divide content. ● Make an H2 (##) section explaining the contents of the repository 
-  
-  ● Section 1: Software and platform section ○ The type(s) of software you used for the project. ○ The names of any add-on packages that need to be installed with the software. ○ The platform (e.g., Windows, Mac, or Linux) you used.  
 
 ## Software and platform section
 ## Section 1: Software and Platform Used
