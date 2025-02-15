@@ -330,19 +330,23 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
   
 | Metric | Value |
 |--------|-------|
-| Count  | 103.000000 |
-| Mean   | 6.071429 |
+| Count  | 126.000000 |
+| Mean   | 7.055556 |
 | Min    | 1.000000 |
 | 25%    | 5.000000 |
-| Median | 6.071429 |
-| 75%    | 8.000000 |
+| Median | 8 |
+| 75%    | 10.000000 |
 | Max    | 10.000000  |
-| Std Dev| 2.723613  |
+| Std Dev| 2.860225 |
+
 
 #### Figure 1:  Boxplot of data (June 16, 2006 - July 6,2006)
 ![image](https://github.com/user-attachments/assets/3a0542e0-bf6e-4e03-8ffe-fe7a1994da82)
+The boxplot above shows the distribution of ratings, ranging from 1 to 10, for the movie reviews submitted between June and July of 2006. A total of 126 ratings were recorded, with the average rating being 7.05. The ratings tend to skew toward the higher end, as indicated by a median of 8. The majority of reviews fall at or above a rating of 6. However, the standard deviation of 2.86 suggests that there is some variability in user opinions, with a significant spread between the lowest and highest ratings.
 
-#### Figure 2: Mean of Movie Ratings by Date (June 16, 2006 - Jully, 6, 2006)
+#### Figure 2: Mean of Movie Ratings by Date (June 16, 2006 - July, 6, 2006)
+![image](https://github.com/user-attachments/assets/c96e3ca4-a3d8-4f9a-b01f-986c08e9b8c0)
+The graph above represents the mean star ratings for each date, showing how the rating changed over the three-week period following the release of the movie.
 
 
 #### Summary Statistics for Date:
@@ -350,8 +354,11 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 - **Date Range:** June + July 2006 to 2016-2025
 - **Missing value:** There were no missing values.
 - **Method to final form:** The date was extracted from the movies's user reviews IMDb page using BeautifulSoup and Selenium. In Python, the datatype was converted from object to datatime.
+- **Total number of reviews: 126 total.
 
 #### Figures 3: Distribution of The Fast and Furious: Tokyo Drift Movie Reviews by Date (June 16, 2006 - July 6, 2006)
+![image](https://github.com/user-attachments/assets/ff8de317-4700-4823-8921-4d53603dcbb8)
+This graph above shows the distribution of reviews made by date.
 
 #### Summary of Title:
 - **Defintion**: The name of the review.
@@ -363,11 +370,14 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 - **Missing value:** Missing values were handled in cleaning by replacing "No content" with the text of the review manually taken
   from the website. There are no missing values in cleaned data.
 - **Method to final form:** Initially, when scraping reviews, any reviews that had spoilers were scraped as "No content." These were then manually updated by copying the actual review text from the user’s review. A dictionary was created in Python to map the correct index number to the corresponding review text leaving no missing reviews.
+- **Average Review Length**: About 1241 Characters
+
 
 #### Summary Statistic for Author Name:
 - **Defintion:** The username fo the reviwer.
 - **Missing value:** No missing values.
-- **Method to final form:** The Author Name's were scraped from the movie's use reviews IMDb page using BeautifuSoup and selenium. 
+- **Method to final form:** The Author Name's were scraped from the movie's use reviews IMDb page using BeautifuSoup and selenium.
+- **Unique Reviewers**: 126 Total.
 
 #### Summary Statistic for Year:
 - **Definition:** The date the review was posted.
@@ -401,30 +411,38 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
   
 | Metric | Value |
 |--------|-------|
-| Count  | 103.000000 |
-| Mean   | 6.071429 |
+| Count  | 195.000000 |
+| Mean   |  6.533333 |
 | Min    | 1.000000 |
 | 25%    | 5.000000 |
-| Median | 6.071429 |
+| Median | 6.000000 |
 | 75%    | 8.000000 |
-| Max    | 10.000000  |
-| Std Dev| 2.723613  |
+| Max    | 10.000000 |
+| Std Dev| 2.333677 |
 
-#### Figure 1:  Boxplot of data (June - July 2006)
-![image](https://github.com/user-attachments/assets/3a0542e0-bf6e-4e03-8ffe-fe7a1994da82)
 
-#### Figure 2: Mean of Movie Ratings by Year (2016 and after)
+#### Figure 1:  Boxplot of data (2016 - 2025)
+![image](https://github.com/user-attachments/assets/f61bc8e1-e28d-4442-91fe-f6ef8b171589)
+The boxplot above shows the distribution of movie ratings, ranging from 1 to 10, for reviews submitted between 2016 and 2025. A total of 195 ratings were recorded, with an average rating of 6.53. The ratings are slightly skewed towards the higher end, with a median of 6. Most reviews fall between a rating of 5 and 8, but the standard deviation of 2.33 indicates some variability in opinions. The presence of ratings as low as 1 and as high as 10 suggests that while many reviewers gave moderate to positive ratings, there are also outliers indicating extreme opinions.
+
+#### Figure 2: Mean of Movie Ratings by Year (2016 - 2025)
+![image](https://github.com/user-attachments/assets/3c83bbe1-b230-432a-b130-e438ef5f3710)
+The graph above represents the mean star ratings for each year, showing how the ratings have changed over a decade later after the 
+release of the movie.
 
 #### Summary Statistics for Date:
 - **Definition:** The date the review was posted.
 - **Date Range:** 2016-2025
 - **Missing value:** No missing values
 - **Method to final form:** The date was extracted from the movies's user reviews IMDb page using BeautifulSoup and Selenium. In Python, the datatype was converted from object to datatime.
+- **Total number of reviews: 194 total.
+
 
 #### Summary of Title:
 - **Defintion**: The name of the review.
 - **missing values**: No mising values.
-- **method to final form**: The review titles were scraped from the movies IMDb page using BeautifulSoup and Selenium
+- **method to final form**: The review titles were scraped from the movies IMDb page using BeautifulSoup and Selenium.
+- **Unique Reviewers**: 194 Total.
 
 
 #### Summary Statistic for Content:
@@ -432,6 +450,8 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
 - **Missing value:** Missing values were handled in cleaning by replacing "No content" with the text of the review manually taken
   from the website. There are no missing values in cleaned data.
 - **Method to final form:** Initially, when scraping reviews, any reviews that had spoilers were scraped as "No content." These were then manually updated by copying the actual review text from the user’s review. A dictionary was created in Python to map the correct index number to the corresponding review text leaving no missing reviews.
+- **Average Review Length**: About 942 Characters
+
 
 #### Summary Statistic for Author Name:
 - **Defintion:** The username fo the reviwer.
@@ -446,6 +466,9 @@ Each row in the dataset represents a movie review from a user for _The Fast and 
   converting Year's data type to int64(YYYY) in python. 
 
 #### Figures 3: Distribution of The Fast and Furious: Tokyo Drift Movie Reviews by Year (2016-2025)
+![image](https://github.com/user-attachments/assets/832547f9-7874-4218-9c9c-832722388c65)
+This graph shows the distibution of reviews made by year.
+
 
 --
 
@@ -472,27 +495,37 @@ Each row in the dataset represents a movie review from a user for _Fast & Furiou
   
 | Metric | Value |
 |--------|-------|
-| Count  | 103.000000 |
-| Mean   | 6.071429 |
+| Count  | 66.000000 |
+| Mean   | 7.181818 |
 | Min    | 1.000000 |
-| 25%    | 5.000000 |
-| Median | 6.071429 |
-| 75%    | 8.000000 |
-| Max    | 10.000000  |
-| Std Dev| 2.723613  |
+| 25%    | 6.000000 |
+| Median | 7.000000 |
+| 75%    | 9.000000 |
+| Max    | 10.000000 |
+| Std Dev| 2.169077 |
 
-#### Figure 1:  Boxplot of data (March - April 2009)
-![image](https://github.com/user-attachments/assets/3a0542e0-bf6e-4e03-8ffe-fe7a1994da82)
+
+#### Figure 1:  Boxplot of data (March 30 - April 9, 2009)
+![image](https://github.com/user-attachments/assets/d054d997-0b17-447a-9628-fb5bc3a920e2)
+The boxplot above shows the distribution of movie ratings, ranging from 1 to 10, for reviews submitted between March 30 and April 9, 2009, for a movie released on March 12. A total of 66 ratings were recorded, with an average rating of 7.18. The ratings are somewhat skewed towards the higher end, with a median of 7, indicating that most reviews are positive. The majority of reviews fall between a rating of 6 and 9, but the standard deviation of 2.17 suggests there is some variation in opinions, with a few extreme ratings on both the low and high ends.
 
 #### Figure 2: Mean of Movie Ratings by Date (March - April 2009)
+![image](https://github.com/user-attachments/assets/f90f8489-04eb-4cc1-8756-9135ea41b920)
+The graph above represents the mean star ratings for each date, showing how the rating changed over the four-week period following the release of the movie.
+
 
 #### Summary Statistics for Date:
 - **Definition:** The date the review was posted.
 - **Date Range:** March 30, 2009 - April 9, 2009
 - **Missing value:** No missing values. 
 - **Method to final form:** The date was extracted from the movies's user reviews IMDb page using BeautifulSoup and Selenium. In Python, the datatype was converted from object to datatime.
+- **Total number of reviews:** 66 total.
+
 
   #### Figures 3: Distribution of Fast & Furious Movie Reviews by Date (March 30, 2009 - April 9, 2009)
+  ![image](https://github.com/user-attachments/assets/d7189df8-7d61-45aa-844e-c21c4d4362cf)
+  The graphs above shows the distibution of reviews made by date.
+
 
 #### Summary of Title:
 - **Defintion**: The name of the review.
@@ -504,11 +537,13 @@ Each row in the dataset represents a movie review from a user for _Fast & Furiou
 - **Missing value:** Missing values were handled in cleaning by replacing "No content" with the text of the review manually taken
   from the website. There are no missing values in cleaned data.
 - **Method to final form:** Initially, when scraping reviews, any reviews that had spoilers were scraped as "No content." These were then manually updated by copying the actual review text from the user’s review. A dictionary was created in Python to map the correct index number to the corresponding review text leaving no missing reviews.
+- **Average Review Length**: About 1384 Characters
 
 #### Summary Statistic for Author Name:
 - **Defintion:** The username fo the reviwer.
 - **Missing value:** No missing values.
 - **Method to final form:** The Author Name's were scraped from the movie's use reviews IMDb page using BeautifuSoup and selenium.
+- **Unique Reviewers**: 66 Total.
 
 #### Summary Statistic for Year:
 - **Definition:** The date the review was posted.
@@ -543,25 +578,31 @@ Each row in the dataset represents a movie review from a user for _Fast & Furiou
   
 | Metric | Value |
 |--------|-------|
-| Count  | 103.000000 |
-| Mean   | 6.071429 |
+| Count  | 114.000000|
+| Mean   | 6.385965 |
 | Min    | 1.000000 |
 | 25%    | 5.000000 |
-| Median | 6.071429 |
+| Median | 7.000000 |
 | 75%    | 8.000000 |
-| Max    | 10.000000  |
-| Std Dev| 2.723613  |
+| Max    | 10.000000 |
+| Std Dev| 1.916435 |
+
 
 #### Figure 1:  Boxplot of data (2019 - 2025)
-![image](https://github.com/user-attachments/assets/3a0542e0-bf6e-4e03-8ffe-fe7a1994da82)
+![image](https://github.com/user-attachments/assets/886d383a-af57-4ce6-ac95-c049796b0e81)
+The boxplot above shows the distribution of movie ratings, ranging from 1 to 10, for reviews submitted between 2019 and 2025. A total of 114 ratings were recorded, with an average rating of 6.39. The ratings are slightly skewed towards the higher end, with a median of 7, indicating that many reviews are positive. Most ratings fall between 5 and 8, and the standard deviation of 1.92 suggests moderate variability in user opinions. While the ratings are generally clustered in the middle to upper range, there are still some low ratings (as low as 1) and a few perfect scores (10), showing outliers.
 
 #### Figure 2: Mean of Movie Ratings by Year(2019 - 2025)
+![image](https://github.com/user-attachments/assets/75283420-ccaa-4b2f-87a0-f444dde79663)
+The graph above represents the mean star ratings for each year, showing how the ratings have changed over a decade later after the 
+release of the movie.
 
 #### Summary Statistics for Date:
 - **Definition:** The date the review was posted.
 - **Date Range:** 2019-2025
 - **Missing value:** No missing values.
 - **Method to final form:** The date was extracted from the movies's user reviews IMDb page using BeautifulSoup and Selenium. In Python, the datatype was converted from object to datatime.
+- **Total number of reviews: 114 total.
 
 #### Summary of Title:
 - **Defintion**: The name of the review.
@@ -573,11 +614,13 @@ Each row in the dataset represents a movie review from a user for _Fast & Furiou
 - **Missing value:** Missing values were handled in cleaning by replacing "No content" with the text of the review manually taken
   from the website. There are no missing values in cleaned data.
 - **Method to final form:** Initially, when scraping reviews, any reviews that had spoilers were scraped as "No content." These were then manually updated by copying the actual review text from the user’s review. A dictionary was created in Python to map the correct index number to the corresponding review text leaving no missing reviews.
+- **Average Review Length**: About 959 Characters
 
 #### Summary Statistic for Author Name:
 - **Defintion:** The username fo the reviwer.
 - **Missing value:** No missing values.
 - **Method to final form:** The Author Name's were scraped from the movie's use reviews IMDb page using BeautifuSoup and selenium.
+- **Unique Reviewers**: 114 Total.
 
 #### Summary Statistic for Year:
 - **Definition:** The date the review was posted.
@@ -587,6 +630,9 @@ Each row in the dataset represents a movie review from a user for _Fast & Furiou
   converting Year's data type to int64(YYYY) in python. 
 
 #### Figures 3: Distribution Fast & Furious Movie Reviews by Year (2019-2025)
+![image](https://github.com/user-attachments/assets/4b0d6157-0005-4e45-9a5d-29ab11a14772)
+The graph above shows the distiribution of reviews made by year.
+
 
 --
 
