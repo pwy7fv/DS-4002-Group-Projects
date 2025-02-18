@@ -731,14 +731,14 @@ Each row in this dataset represents a movie review from a user for _Fast Five_, 
 #### Summary Statistics for Rating:
 | Metric | Value |
 |--------|-------|
-| Count  | |124.0000|
-| Mean   |  8.532258|
+| Count  | |132.0000|
+| Mean   |  8.500000|
 | Min    | 2.000000 |
 | 25%    | 7.000000 |
 | Median | 9.000000|
 | 75%    | 10.000000|
 | Max    |  10.000000 |
-| Std Dev|  1.862927 |
+| Std Dev|  1.851346 |
 
 
 #### Summary Statistics for Date:
@@ -760,11 +760,11 @@ Each row in this dataset represents a movie review from a user for _Fast Five_, 
 
 ### Figures and Tables:
 #### Distribution of _Fast Five_ Reviews by Year(2021-2024)
-![Alt text](image-2.png)
+![Alt text](image-8.png)
 
 
 #### Boxplot of _Fast Five_ Ratings (2021 - 2024)
-![Alt text](image-3.png)
+![Alt text](image-9.png)
 
 
 --
