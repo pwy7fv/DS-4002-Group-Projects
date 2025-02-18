@@ -696,10 +696,10 @@ Each row in this dataset represents a movie review from a user for _Fast Five_, 
 
 ### Figures and Tables:
 #### Distribution of _Fast Five_ Reviews by Date (April 29 2011 to May 27 2011)
-![Alt text](image.png)
+![Alt text](FF52011_hist.png)
 
 #### Boxplot of _Fast Five_ Ratings (April 29 2011 to May 27 2011)
-![Alt text](image-1.png)
+![Alt text](FF52011_box.png)
 
 
 --
@@ -707,7 +707,7 @@ Each row in this dataset represents a movie review from a user for _Fast Five_, 
 ## Section 10: Dataset 10 - *Fast Five (2011)* 10 years later
 
 ### Unit of Observation:
-Each row in this dataset represents a movie review from a user for _Fast Five_, written between 2021 - 2024 . The unit of observation remains the same as in the prior datasets: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
+Each row in this dataset represents a movie review from a user for _Fast Five_, written between 2021 - 2025 . The unit of observation remains the same as in the prior datasets: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
 
 ### Variables:
 - **Rating**: Numeric values representing the review rating, ranging from 1 to 10. Missing values were handled similarly as in the previous dataset by replacing "No rating" with the mean rating. (Float)
@@ -731,18 +731,18 @@ Each row in this dataset represents a movie review from a user for _Fast Five_, 
 #### Summary Statistics for Rating:
 | Metric | Value |
 |--------|-------|
-| Count  | |132.0000|
-| Mean   |  8.500000|
+| Count  | |128.0000|
+| Mean   |  8.515625|
 | Min    | 2.000000 |
 | 25%    | 7.000000 |
 | Median | 9.000000|
 | 75%    | 10.000000|
 | Max    |  10.000000 |
-| Std Dev|  1.851346 |
+| Std Dev|  1.857033 |
 
 
 #### Summary Statistics for Date:
-- **Date Range**: January 11 2021 to December 22 2024.
+- **Date Range**: January 11 2021 to February 7, 2025.
 - **Total Number of Reviews**: 124 Total
 
 #### Content:
@@ -752,19 +752,19 @@ Each row in this dataset represents a movie review from a user for _Fast Five_, 
 - **Unique Reviewers**: 125 Total
 
 #### Date:
-- The reviews span from January 11 2021 to December 22 2024.
+- The reviews span from January 11 2021 to February 7, 2025.
 
 #### Year:
-- All the reviews within this dataset are from the year 2021-2024.
+- All the reviews within this dataset are from the year 2021-2025.
 
 
 ### Figures and Tables:
-#### Distribution of _Fast Five_ Reviews by Year(2021-2024)
-![Alt text](image-8.png)
+#### Distribution of _Fast Five_ Reviews by Year(2021-2025)
+![Alt text](FF5dec_hist.png)
 
 
-#### Boxplot of _Fast Five_ Ratings (2021 - 2024)
-![Alt text](image-9.png)
+#### Boxplot of _Fast Five_ Ratings (2021 - 2025)
+![Alt text](FF5dec_box.png)
 
 
 --
@@ -825,19 +825,19 @@ Each row in this dataset represents a movie review from a user for _Fast and Fur
 
 ### Figures and Tables:
 #### Distribution of _Fast and Furious 6_ Reviews by Date (May 24, 2013 to June 24, 2013)
-![Alt text](image-4.png)
+![Alt text](FF52013_hist.png)
 
 
 
 #### Boxplot of _Fast and Furious 6_ Ratings (May 24, 2013 to June 24, 2013)
-![Alt text](image-5.png)
+![Alt text](FF52013_box.png)
 
 --
 
 ## Section 12: Dataset 12  - *Fast and Furious 6 (2013)* 10 Years later
 
 ### Unit of Observation:
-Each row in this dataset represents a movie review from a user for _Fast and Furious 6_, written between 2023 - 2024 . The unit of observation remains the same as in the prior datasets: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
+Each row in this dataset represents a movie review from a user for _Fast and Furious 6_, written between 2023 - 2025 . The unit of observation remains the same as in the prior datasets: a movie review with attributes such as Rating, Title, Content, Author Name, and Date.
 
 ### Variables:
 - **Rating**: Numeric values representing the review rating, ranging from 1 to 10. Missing values were handled similarly as in the previous dataset by replacing "No rating" with the mean rating. (Float)
@@ -861,18 +861,18 @@ Each row in this dataset represents a movie review from a user for _Fast and Fur
 #### Summary Statistics for Rating:
 | Metric | Value |
 |--------|-------|
-| Count  | |207.0000|
-| Mean   |  7.047619|
+| Count  | |49.000000|
+| Mean   |  7.204082|
 | Min    | 4.000000 |
 | 25%    | 6.000000 |
 | Median | 7.000000|
 | 75%    | 8.000000|
 | Max    |  10.000000 |
-| Std Dev|  1.622290 |
+| Std Dev|  1.670574 |
 
 
 #### Summary Statistics for Date:
-- **Date Range**: March 24, 2023 - November 6, 2024.
+- **Date Range**: March 24, 2023 - February 9, 2025.
 - **Total Number of Reviews**: 42 Total
 
 #### Content:
@@ -882,15 +882,15 @@ Each row in this dataset represents a movie review from a user for _Fast and Fur
 - **Unique Reviewers**: 42 Total
 
 #### Date:
-- The reviews span from March 24, 2023 - November 6, 2024
+- The reviews span from March 24, 2023 - February 9, 2025
 
 #### Year:
-- All the reviews within this dataset are from the year 2023 - 2024.
+- All the reviews within this dataset are from the year 2023 - 2025.
 
 
 ### Figures and Tables:
 #### Distribution of _Fast and Furious 6_ Reviews by Year
-![Alt text](image-6.png)
+![Alt text](FF6dec_hist.png)
 
-#### Boxplot of _Fast and Furious 6_ Ratings (2023 - 2024)
-![Alt text](image-7.png)
+#### Boxplot of _Fast and Furious 6_ Ratings (2023 - 2025)
+![Alt text](FF6dec_box.png)
