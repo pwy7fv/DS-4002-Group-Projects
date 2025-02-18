@@ -124,7 +124,9 @@ Once the data was cleaned, we applied the VADER Sentiment Analysis tool to evalu
 - The percentage of negative sentiments in each review which was named "Negative Score."
 - An overall sentiment percentage determining whether a review was mostly positive, neutral, or negative, which was named "Overall Percenteange Score."
 - An overal sentiment lable of positve, neutral , or negative, which was named "Overall Sentiment"
-As part of our analysis, we generated many visualizations comparing the two different time periods for each movie in the franchise. 
+As part of our analysis, we generated many visualizations comparing the two different time periods for each movie in the franchise.
+
+We then preformed a two-sample t-test to compare sentiment scores from movie reviews written within four or three weeks of Fast & Furious's release date to those written from 10 years later up to the present. First, it checks the variance of both datasets to determine if they are equal, then applies Welch’s t-test, which accounts for unequal variances. The resulting p-value is compared to a significance level (α = 0.05) to determine if there is a statistically significant difference in sentiment between the two time periods.
 
 All analysis outputs, including sentiment results and visualizations, can be found in the OUTPUT folder. Each file is named according to the corresponding movie. So for example the Fast & Furious (2009) and fourth in the franchishe is called FF4.  
 
