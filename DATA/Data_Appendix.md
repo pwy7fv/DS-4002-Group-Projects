@@ -825,12 +825,12 @@ Each row in this dataset represents a movie review from a user for _Fast and Fur
 
 ### Figures and Tables:
 #### Distribution of _Fast and Furious 6_ Reviews by Date (May 24, 2013 to June 24, 2013)
-![Alt text](FF52013_hist.png)
+![Alt text](FF62013_hist.png)
 
 
 
 #### Boxplot of _Fast and Furious 6_ Ratings (May 24, 2013 to June 24, 2013)
-![Alt text](FF52013_box.png)
+![Alt text](FF62013_box.png)
 
 --
 

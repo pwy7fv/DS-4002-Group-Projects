@@ -27,6 +27,19 @@
 **DS-4002-GROUP-PROJECTS**
 - DATA (main folder)
     - Cleaned Data (sub folder)
+        - Vader Included Datasets (sub folder under Cleaned Data)
+            - FF1_Vader_dec.csv
+            - FF1_Vader01.csv
+            - FF2_Vader_dec.csv
+            - FF2_Vader03.csv
+            - FF3_Vader_dec.csv
+            - FF3_Vader2006.csv
+            - FF4_Vader_dec.csv
+            - FF4_Vader2009.csv
+            - FF5_2011_vader.csv
+            - FF5_dec_vader.csv
+            - FF6_2013_vader.csv
+            - FF6_dec_vader.csv
         - FAF1_2001_cleaned.csv
         - FAF1_2011_cleaned.csv
         - FAF1_2013_cleaned.csv
@@ -36,7 +49,7 @@
         - FF5_clean_dec2.csv
         - FF5_clean2011_3.csv
         - FF6_clean_dec2.csv
-        - FF6_clean2013_2.csv
+        - FF6_clean2013_2.csv       
     - Original Data (sub folder)
         - FF2reviews_data.csv
         - FF3reviews_data.csv
@@ -46,19 +59,28 @@
         - reviews_data(1).csv
         - reviews_data.csv
     - Data_Appendix.md
-    - image-1.png (graph in data appendix)
-    - image-2.png (graph in data appendix)
-    - image-3.png (graph in data appendix)
-    - image-4.png (graph in data appendix)
-    - image-5.png (graph in data appendix)
-    - image-6.png (graph in data appendix)
-    - image-7.png (graph in data appendix)
-    - image.png (graph in data appendix)
+    - FF5dec_box.png (graph in data appendix)
+    - FF5dec_hist.png (graph in data appendix)
+    - FF6dec_box.png (graph in data appendix)
+    - FF6dec_hist.png (graph in data appendix)
+    - FF52011_box.png (graph in data appendix)
+    - FF52011_hist.png (graph in data appendix)
+    - FF62013_box.png (graph in data appendix)
+    - FF62013_hist.png (graph in data appendix)
+
 - OUTPUT (main folder)
-    - FF3_ + FF4_Vader_Visualizations.ipynb
+    - Analysis_+_Visualizations_of_All_Movies.ipynb
+    - FAF1_Vader_2sample_test.ipynb
+    - FAF2_Vader_2sample_test.ipynb
     - FF3_Vader_Analysis.ipynb
+    - FF3_Vader_Visualizations.ipynb
+    - FF4_Vader__Visualizations.ipynb
+    - FF4_Vader_Analysis.ipynb
+    - FF5_ Vader_Analysis.ipynb
+    - FF6_Vader_Analysis.ipynb
+
 - SCRIPTS (main folder)
-    - DS-4002-Group-Projects
+    - DS-4002-Group-Projects (sub folder)
     - Cleaning_FAF1_FAF2_PLUS_GRAPHING.ipynb
     - FF3_ + FF4_clean.ipynb
     - FF5_clean.ipynb
