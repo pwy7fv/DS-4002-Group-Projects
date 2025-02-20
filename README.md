@@ -91,13 +91,6 @@
 - README.md
 
 
-
-
-## A Map of your documentation.
-In the folder DATA, The reviews for each movie beofre and after
-In the OUTCOME FOLDER .... I assume is graphs and styff
-In the Scripts folder is the coding performed
-
 ## Instructions for reproducing your results. 
 Scraping
 
